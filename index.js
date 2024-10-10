@@ -150,9 +150,9 @@ console.log(getChannelName(channels[0]));
  ****************************************************************/
 
 function numberOfVideos(channel) {
-  return channels.filter((channel) => channel.videos).length;
+  return channel.videos.length;
 }
-console.log(numberOfVideos(channels[0]));
+console.log(numberOfVideos(channels[3]));
 
 /**************************************************************
  * channelHasVideo(videoTitle, channel):
